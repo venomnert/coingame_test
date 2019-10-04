@@ -3,6 +3,11 @@ defmodule ExBanking do
   Documentation for ExBanking.
   """
 
+  def init_bank() do
+   {:ok, pid} = Supervisor.start_child(ExBanking.Supervisor, [])
+   pid
+  end
+
   def create_user(bank_pid, user) do
     GenServer.call(bank_pid, {:create_user, user})
   end
