@@ -1,0 +1,10 @@
+{application,ex_banking,
+             [{applications,[kernel,stdlib,elixir,logger,user]},
+              {description,"ex_banking"},
+              {modules,['Elixir.ExBanking','Elixir.ExBanking.Agent',
+                        'Elixir.ExBanking.Application',
+                        'Elixir.ExBanking.Bank','Elixir.ExBanking.Currency',
+                        'Elixir.ExBanking.Server','Elixir.ExBanking.User']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.ExBanking.Application',[]}}]}.
