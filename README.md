@@ -10,6 +10,6 @@
 4. `ExBanking.init_bank()` will return a pid which you can use to tes the main apis
 
 ##Notes:
-Due to my time commit of Oct 4, 2019 @6PM (EST), I as able to complete the `send/3` functionality.
+Due to my time commit of Oct 4, 2019 @6PM (EST), I wasn't able to complete the `send/3` functionality.
 
 
